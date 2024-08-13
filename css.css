@@ -1,0 +1,51 @@
+#body {
+  background-image: url("https://images.unsplash.com/photo-1651973985408-1a66baa62ee9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#div {
+  font-size: 20px;
+  font-family: cursive;
+  font-weight: 800;
+  font-style: italic;
+  background-color: cadetblue;
+}
+#para {
+  text-decoration: underline;
+  text-shadow: 2px 2px 8px red;
+  text-align: right;
+}
+#para2 {
+  text-decoration: overline;
+  text-shadow: 2px 2px 8px green;
+  text-align: left;
+}
+
+#img1 img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border: 2px solid black;
+  box-shadow: 3px 3px 3px white;
+}
+
+#img2 img {
+    width: 300px;
+    height: 400px;
+  object-fit: contain;
+  border: 2px solid black;
+  box-shadow: 3px 3px 3px white;
+}
+#img3 img {
+    width: 300px;
+    height: 400px;
+  object-fit: fill;
+  border: 2px solid black;
+  box-shadow: 3px 3px 3px white;
+}
+#para3{
+    background:linear-gradient(to bottom right, red, green,yellow);
+    width: 20vw;
+    box-shadow: 3px 3px 3px red;
+}
